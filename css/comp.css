@@ -1,0 +1,63 @@
+#container {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+#up-container {
+    position: relative;
+    height: 10%;
+    width: 100%;
+}
+#center-container {
+    position: relative;
+    height: 80%;
+    width: 100%;
+    text-align: center;
+}
+.text-area {
+    border: 1px solid gray;
+}
+.control {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#threshold {
+    width: 50px;
+}
+.content {
+}
+.contentblock {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+.textblock {
+    padding: 8px;
+    position: relative;
+    height: 90%;
+    overflow: auto;
+    word-break: normal;
+    word-wrap: break-all;
+    white-space: pre-wrap;
+}
+.highlight {
+    background-color: yellow;
+}
+.highlight:hover {
+    background-color: orange;
+}
+.overhighlight {
+    background-color: orange !important;
+}
+.nodiv {
+    display: none;
+}
+.typeword {
+    resize: none;
+}
